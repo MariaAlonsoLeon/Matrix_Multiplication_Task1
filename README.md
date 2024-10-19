@@ -42,4 +42,77 @@ The repository contains five main folders, each corresponding to a programming l
 
 - **Utils**:
   - Contains a PyCharm project named `Graphs Generator`, which includes utilities for extracting data and generating graphs.
- 
+
+## Usage
+- Open the respective IDE for the programming language you wish to test.
+- Navigate to the appropriate folder and run the desired script or project.
+- Use the Graphs Generator in the Utils folder to visualize the results obtained from the benchmarking.
+
+## Key Results:
+
+- Rust consistently outperforms other languages in execution speed but shows high memory and CPU consumption.
+- Java offers a balanced performance, with near-optimal execution times and better resource management (lower memory and CPU usage).
+- C++ demonstrates highly efficient memory usage and stable execution times, making it well-suited for performance-critical tasks.
+- Python exhibits significant performance degradation, particularly for larger matrices, due to its interpreted nature and lack of low-level optimizations.
+
+## Dependencies
+
+### Python 
+* `pytest` for benchmarking
+*  `matplotlib` for graph generation
+*  `psutil` for memory and CPU tracking
+### Java 
+* `JMH` (Java Microbenchmark Harness) for benchmarking
+*  `ManagementFactory` for system resource tracking
+ ## C++ 
+ * Standard C++ libraries (`iostream`, `chrono`, `psapi.h`)
+### Rust 
+* `sysinfo` crate for system resource tracking
+
+## How to Run the Benchmarks
+
+### Python
+1. Navigate to the `Python/Benchmark/` folder.
+2. Run the benchmark using pytest:
+    ```bash
+    pytest --benchmark-only
+    ```
+
+### Java
+1. Navigate to the `Java/MatrixMultiplicationJava/` folder.
+2. Use Maven or your preferred IDE (e.g., IntelliJ) to run the JMH benchmarks:
+    ```bash
+    mvn clean install
+    ```
+
+### C++
+1. Navigate to the `C++/Scripts/` folder.
+2. Use the provided scripts to compile and run the benchmarks:
+    ```bash
+    g++ -o benchmark matrix_multiplication.cpp
+    ./benchmark
+    ```
+
+### Rust
+1. Navigate to the `Rust/Matrix_Multiplication/` folder.
+2. Compile and run the benchmark:
+    ```bash
+    cargo run --release
+    ```
+Additionally, the scripts can be used with the command `./perf_execution.sh`, this will generate one text book for each matrix size.
+
+## Results
+
+The benchmarking results include:
+- **Execution Time (ms)**: Measured for each matrix size.
+- **Memory Usage (MB)**: Memory consumption recorded during matrix operations.
+- **CPU Usage (%)**: CPU utilization during benchmarking.
+
+For a detailed analysis, the results are visualized using graphs in the `Utils/Graphs_Generator` folder.
+
+## Future Work
+
+Future enhancements to the project include:
+- Implementation of optimized matrix multiplication algorithms like Strassen's algorithm.
+- Exploring sparse matrix formats (e.g., CSR, CSC, COO) to improve performance.
+- Testing larger matrix sizes and evaluating the impact of optimization techniques on performance.
