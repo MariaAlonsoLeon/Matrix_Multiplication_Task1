@@ -111,6 +111,26 @@ The benchmarking results cover three key performance metrics:
 
 You can generate and visualize the benchmarking data using the `Graphs_Generator` project in the `Utils` folder. This tool provides graphs for execution time, memory usage, and CPU consumption for each language across different matrix sizes.
 
+## Additional Analysis and Optional Assignments
+
+In addition to the core objectives of the project, several optional tasks were undertaken to provide a more comprehensive analysis. These tasks aimed to offer deeper insights into how each programming language handles computational resources during matrix operations, with a particular focus on CPU usage and algorithmic variations in Java.
+
+### Key Enhancements:
+
+1. **CPU Usage Monitoring**:  
+   CPU usage was carefully monitored across all programming languages to better understand how each language manages computational resources during matrix operations. This provided valuable insights into the efficiency of the languages in terms of CPU consumption during high-demand tasks.
+
+2. **Inclusion of Rust**:  
+   Rust, a relatively new but highly efficient programming language, was included in the benchmarking analysis to compare its performance with more established languages such as Python, Java, and C++. Rust’s performance in both speed and resource management was assessed, offering a modern perspective on efficient computation.
+
+3. **Algorithmic Variations in Java**:  
+   To broaden the scope of performance optimization, multiple matrix multiplication algorithms were implemented and evaluated in Java, including:
+   - Naive Multiplication
+   - Block Multiplication
+   - Sparse Matrix Formats: CSR (Compressed Sparse Row), CSC (Compressed Sparse Column), and COO (Coordinate List)
+
+   These algorithmic variations provided a more nuanced understanding of how Java can optimize matrix operations depending on the specific use case, especially in scenarios involving sparse matrices. This analysis enhanced the study by offering a broader perspective on performance optimization and resource management strategies.
+
 ## Usage
 To sum up, you can use the project by following these steps.
 
