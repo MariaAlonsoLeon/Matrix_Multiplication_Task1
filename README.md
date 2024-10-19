@@ -26,7 +26,7 @@ The repository is organized into five main folders, one for each programming lan
   - `Matrix_Multiplication_With_CPU_And_Memory`: A CLion project for monitoring memory usage, CPU consumption, and execution time.
 
 - **Rust**:
-  - Structured similarly to the C++ folder, but with Rust-specific code adaptations.
+  - Structured similarly to the C++ folder, but with Rust-specific code adaptations. Additionally, and very importantly, there is an extra folder which contains a compressed file of all the Rust files. This decision was made due to the large size of the files in the `target folders`.
 
 - **Java**:
   - `shared_folder`: Functions similarly to the shared folder in C++.
