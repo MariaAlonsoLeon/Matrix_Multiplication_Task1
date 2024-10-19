@@ -1,0 +1,22 @@
+event syntax error: 'cpu_core/TOPDOWN.SLOTS,metric-id=cpu_core!3TOPDOWN.S..'
+                     \___ Bad event or PMU
+
+Unable to find PMU or event on a PMU of 'cpu_core'
+
+ Performance counter stats for 'java Main 64':
+
+             66,90 msec task-clock                       #    0,851 CPUs utilized             
+               452      context-switches                 #    6,756 K/sec                     
+                 0      cpu-migrations                   #    0,000 /sec                      
+             4.968      page-faults                      #   74,260 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0,078610149 seconds time elapsed
+
+       0,047950000 seconds user
+       0,012908000 seconds sys
+
+
