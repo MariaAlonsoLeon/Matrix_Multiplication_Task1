@@ -111,6 +111,13 @@ The benchmarking results cover three key performance metrics:
 
 You can generate and visualize the benchmarking data using the `Graphs_Generator` project in the `Utils` folder. This tool provides graphs for execution time, memory usage, and CPU consumption for each language across different matrix sizes.
 
+## Usage
+To sum up, you can use the project by following these steps.
+
+1. Open the appropriate IDE for the programming language you wish to test.
+2. Navigate to the respective folder and run the provided script or project.
+3. Use the Graphs Generator in the `Utils` folder to visualize the results from the benchmarking process.
+
 ## Additional Analysis and Optional Assignments
 
 In addition to the core objectives of the project, several optional tasks were undertaken to provide a more comprehensive analysis. These tasks aimed to offer deeper insights into how each programming language handles computational resources during matrix operations, with a particular focus on CPU usage and algorithmic variations in Java.
@@ -130,10 +137,3 @@ In addition to the core objectives of the project, several optional tasks were u
    - Sparse Matrix Formats: CSR (Compressed Sparse Row), CSC (Compressed Sparse Column), and COO (Coordinate List)
 
    These algorithmic variations provided a more nuanced understanding of how Java can optimize matrix operations depending on the specific use case, especially in scenarios involving sparse matrices. This analysis enhanced the study by offering a broader perspective on performance optimization and resource management strategies.
-
-## Usage
-To sum up, you can use the project by following these steps.
-
-1. Open the appropriate IDE for the programming language you wish to test.
-2. Navigate to the respective folder and run the provided script or project.
-3. Use the Graphs Generator in the `Utils` folder to visualize the results from the benchmarking process.
