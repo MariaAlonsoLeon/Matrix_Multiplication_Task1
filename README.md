@@ -42,19 +42,6 @@ The repository is organized into five main folders, one for each programming lan
 - **Utils**:
   - Contains the `Graphs_Generator` PyCharm project, which includes utilities for extracting data and generating performance graphs.
 
-## Usage
-
-1. Open the appropriate IDE for the language you wish to test.
-2. Navigate to the corresponding folder and run the provided script or project.
-3. Use the `Graphs_Generator` in the `Utils` folder to visualize the benchmarking results.
-
-## Key Results
-
-- **Rust** delivers the fastest execution times but with high memory and CPU consumption.
-- **Java** offers a balanced performance, achieving near-optimal execution times with better resource management (lower memory and CPU usage).
-- **C++** shows highly efficient memory usage and stable execution times, making it well-suited for resource-sensitive tasks.
-- **Python** exhibits significant performance degradation, particularly for larger matrices, due to its interpreted nature and lack of low-level optimizations.
-
 ## Dependencies
 
 ### Python
@@ -107,9 +94,26 @@ Alternatively, you can run the script `./perf_execution.sh`, which will generate
 
 ## Results
 
-The benchmarking results include:
-- **Execution Time (ms)**: Measured for each matrix size.
-- **Memory Usage (MB)**: Memory consumption during matrix operations.
-- **CPU Usage (%)**: CPU utilization during benchmarking.
+The benchmarking results cover three key performance metrics:
 
-For detailed analysis, visualized results can be found in the `Utils/Graphs_Generator` folder, where graphs are generated based on the collected benchmarking data. 
+- **Execution Time (ms):** Measured for each matrix size.
+- **Memory Usage (MB):** The amount of memory consumed during matrix operations.
+- **CPU Usage (%):** The percentage of CPU utilized during the benchmarking.
+
+### Performance Summary
+
+- **Rust**: Consistently delivers one of the fastest execution times but consumes the highest amount of memory and CPU resources.
+- **Java**: Provides a balanced performance, achieving near-optimal execution times with better memory and CPU efficiency than Rust.
+- **C++**: Demonstrates the most efficient memory usage and stable execution times, making it ideal for performance-critical tasks with constrained resources.
+- **Python**: Suffers from significant performance degradation, especially with larger matrices, due to its interpreted nature and lack of low-level optimizations.
+
+### Visualizing the Results
+
+You can generate and visualize the benchmarking data using the `Graphs_Generator` project in the `Utils` folder. This tool provides graphs for execution time, memory usage, and CPU consumption for each language across different matrix sizes.
+
+## Usage
+To sum up, you can use the project by following these steps.
+
+1. Open the appropriate IDE for the programming language you wish to test.
+2. Navigate to the respective folder and run the provided script or project.
+3. Use the Graphs Generator in the `Utils` folder to visualize the results from the benchmarking process.
