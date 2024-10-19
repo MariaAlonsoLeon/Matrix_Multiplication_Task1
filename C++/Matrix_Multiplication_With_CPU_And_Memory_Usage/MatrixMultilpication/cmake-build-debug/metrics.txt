@@ -1,0 +1,80 @@
+Matrix size: 64x64
+Execution Time: 0.0026418s
+Memory Usage: 0.0625MB
+CPU Usage: 17.1875%
+-----------------------------
+Matrix size: 128x128
+Execution Time: 0.0143387s
+Memory Usage: 0.0625MB
+CPU Usage: 20.3125%
+-----------------------------
+Matrix size: 256x256
+Execution Time: 0.105269s
+Memory Usage: 0.460938MB
+CPU Usage: 173.438%
+-----------------------------
+Matrix size: 512x512
+Execution Time: 0.785696s
+Memory Usage: 0.277344MB
+CPU Usage: 1246.88%
+-----------------------------
+Matrix size: 1024x1024
+Execution Time: 6.30136s
+Memory Usage: 0.578125MB
+CPU Usage: 10071.9%
+-----------------------------
+Matrix size: 2048x2048
+Execution Time: 107.877s
+Memory Usage: 0.308594MB
+CPU Usage: 172602%
+-----------------------------
+Matrix size: 64x64
+Execution Time: 0.0030055s
+Memory Usage: 0.0625MB
+CPU Usage: 0%
+-----------------------------
+Matrix size: 128x128
+Execution Time: 0.0234973s
+Memory Usage: 0.0625MB
+CPU Usage: 40.625%
+-----------------------------
+Matrix size: 256x256
+Execution Time: 0.136316s
+Memory Usage: 0.460938MB
+CPU Usage: 228.125%
+-----------------------------
+Matrix size: 512x512
+Execution Time: 0.892402s
+Memory Usage: 0.277344MB
+CPU Usage: 1403.12%
+-----------------------------
+Matrix size: 64x64
+Execution Time: 0.0026185s
+Memory Usage: 0.0664062MB
+CPU Usage: 0%
+-----------------------------
+Matrix size: 128x128
+Execution Time: 0.0150084s
+Memory Usage: 0.0625MB
+CPU Usage: 23.4375%
+-----------------------------
+Matrix size: 256x256
+Execution Time: 0.113751s
+Memory Usage: 0.460938MB
+CPU Usage: 203.125%
+-----------------------------
+Matrix size: 512x512
+Execution Time: 0.811253s
+Memory Usage: 0.277344MB
+CPU Usage: 1275%
+-----------------------------
+Matrix size: 1024x1024
+Execution Time: 6.34019s
+Memory Usage: 0.574219MB
+CPU Usage: 10137.5%
+-----------------------------
+Matrix size: 2048x2048
+Execution Time: 128.303s
+Memory Usage: 0.316406MB
+CPU Usage: 205277%
+-----------------------------

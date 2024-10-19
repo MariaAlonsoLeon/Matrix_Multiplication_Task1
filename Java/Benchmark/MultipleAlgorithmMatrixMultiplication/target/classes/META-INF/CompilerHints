@@ -1,0 +1,12 @@
+dontinline,*.*_all_jmhStub
+dontinline,*.*_avgt_jmhStub
+dontinline,*.*_sample_jmhStub
+dontinline,*.*_ss_jmhStub
+dontinline,*.*_thrpt_jmhStub
+inline,org/example/Benchmark/MatrixMultiplicationBenchmarkJMH.setup
+inline,org/example/Benchmark/MatrixMultiplicationBenchmarkJMH.testBlockMultiplication
+inline,org/example/Benchmark/MatrixMultiplicationBenchmarkJMH.testNaiveMultiplication
+inline,org/example/Benchmark/MatrixMultiplicationBenchmarkJMH.testRowColumnMajorMultiplication
+inline,org/example/Benchmark/MatrixMultiplicationBenchmarkJMH.testSparseMatrixCOOMul
+inline,org/example/Benchmark/MatrixMultiplicationBenchmarkJMH.testSparseMatrixCSCMul
+inline,org/example/Benchmark/MatrixMultiplicationBenchmarkJMH.testSparseMatrixCSRMul

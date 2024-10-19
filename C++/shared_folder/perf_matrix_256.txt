@@ -1,0 +1,22 @@
+event syntax error: 'cpu_core/TOPDOWN.SLOTS,metri..'
+                     \___ Bad event or PMU
+
+Unable to find PMU or event on a PMU of 'cpu_core'
+
+ Performance counter stats for './MatrixMultiplication 256':
+
+            105,00 msec task-clock                       #    0,897 CPUs utilized             
+                14      context-switches                 #  133,339 /sec                      
+                 0      cpu-migrations                   #    0,000 /sec                      
+               522      page-faults                      #    4,972 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0,117038175 seconds time elapsed
+
+       0,064491000 seconds user
+       0,033212000 seconds sys
+
+
