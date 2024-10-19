@@ -1,0 +1,22 @@
+event syntax error: 'cpu_core/TOPDOWN.SLOTS,metric-id=cpu_core!3TOPDOWN.S..'
+                     \___ Bad event or PMU
+
+Unable to find PMU or event on a PMU of 'cpu_core'
+
+ Performance counter stats for 'python3 matrix_multiplication.py 1024':
+
+        114.286,36 msec task-clock                       #    0,992 CPUs utilized             
+             8.951      context-switches                 #   78,321 /sec                      
+                 0      cpu-migrations                   #    0,000 /sec                      
+            32.336      page-faults                      #  282,938 /sec                      
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+     115,219129294 seconds time elapsed
+
+      63,510149000 seconds user
+      37,489027000 seconds sys
+
+
